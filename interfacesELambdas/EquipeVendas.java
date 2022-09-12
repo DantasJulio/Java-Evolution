@@ -14,7 +14,7 @@ public class EquipeVendas extends Funcionario {
 		return getVenda()*percentual;
 	}
 	
-	public double calcularSalario() { // usando o mesmo método
+	public double calcularSalario() { // usando o mesmo método para calcular o salario, porém sobrescrevendo o método com o novo percentual.
 		
 		if(getVenda() > 0) {
 			setTotal(this.getSalarioFunc() + (getVenda()*percentual));
