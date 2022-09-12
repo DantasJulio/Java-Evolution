@@ -5,11 +5,8 @@ public class FolhaMain {
 	public static void main(String[] args) {
 		
 		Adm funcionario1 = new Adm(1500, 50000);
-		funcionario1.calcularSalario();
 		Adm funcionario2 = new Adm(1500, 35000);
-		funcionario2.calcularSalario();
 		Adm funcionario3 = new Adm(1500, 42000);
-		funcionario3.calcularSalario();
 		
 		System.out.println(funcionario1.calcularSalario());
 		System.out.println(funcionario2.calcularSalario());
