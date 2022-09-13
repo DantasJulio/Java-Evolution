@@ -1,2 +1,2 @@
-# PraticaLambdas
- Exercicio de Java com POO e Funcional
+# Desafios em Java
+Exercícios para evoluir cada vez mais com programação.
